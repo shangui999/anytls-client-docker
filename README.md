@@ -12,7 +12,7 @@
 docker run -d \
   --name anytls-client \
   --restart always \
-  -p 10808:10808 \
+  -p 10809:10809 \
   -e PASS="你的密码" \
   -e HOST="你的服务器地址" \
   -e PORT="8443" \
@@ -31,7 +31,7 @@ docker run -d \
 | `PASS` | `your_password` | anytls 服务端的连接密码 |
 | `HOST` | `your_host` | anytls 服务端的域名或 IP |
 | `PORT` | `8443` | anytls 服务端的端口 |
-| `EXPOSE` | `10808` | 容器内部监听端口（Socks5 代理端口） |
+| `EXPOSE` | `10809` | 容器内部监听端口（http 代理端口） |
 
 ---
 
