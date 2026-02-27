@@ -14,8 +14,8 @@ on:
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
-  # github.repository as ghcr.io/zwy20250185/anytls
-  IMAGE_NAME: zwy20250185/anytls
+  # github.repository as ghcr.io/shangui999/anytls
+  IMAGE_NAME: shangui999/anytls
 
 
 jobs:
