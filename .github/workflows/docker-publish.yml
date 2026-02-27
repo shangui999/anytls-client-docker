@@ -57,3 +57,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             VERSION=0.0.12
+            GOST_VERSION=2.11.5
